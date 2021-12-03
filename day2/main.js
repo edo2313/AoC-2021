@@ -1,5 +1,5 @@
 const fs = require('fs');
-var array = fs.readFileSync('input.txt').toString().split("\n");
+var array = fs.readFileSync('input.txt').toString().replace(/[\r]/g, '').split("\n");
 
 //Part 1
 console.log("Part 1 result: ")

@@ -1,5 +1,5 @@
 const fs = require('fs');
-var array = fs.readFileSync('input.txt').toString().split("\n");
+var array = fs.readFileSync('input.txt').toString().replace(/[\r]/g, '').split("\n");
 for(let i = 0; i < array.length; i++)
     array[i] = parseInt(array[i]);
 
