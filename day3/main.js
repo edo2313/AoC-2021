@@ -3,7 +3,7 @@ var array = fs.readFileSync('input.txt').toString().replace(/[\r]/g, '').split("
 
 
 //Part 1
-console.log("Part 1 result: ")
+console.log("Part 1 result: ");
 
 let gammaRate = '';
 for (let i = 0; i < array[0].length; i++) {
@@ -19,9 +19,10 @@ for (let i = 0; i < array[0].length; i++) {
     epsilonRate += parseInt(gammaRate[i]) ? 0 : 1;
 }
 
-console.log(gammaRate);
-console.log(epsilonRate);
 console.log(parseInt(gammaRate, 2) * parseInt(epsilonRate, 2));
+
+//Part 2
+console.log("Part 2 result: ");
 
 let oxygen = Array.from(array);
 for (let i = 0; i < oxygen[0].length && oxygen.length > 1; i++) {
@@ -48,7 +49,7 @@ for (let i = 0; i < oxygen[0].length && oxygen.length > 1; i++) {
 }
 
 let co = Array.from(array);
-for (let i = 0; i < co[0].length && co.length >1; i++) {
+for (let i = 0; i < co[0].length && co.length > 1; i++) {
     let arrOne = [];
     let arrZero = [];
     for (let j = 0; j < co.length; j++) {
@@ -70,4 +71,5 @@ for (let i = 0; i < co[0].length && co.length >1; i++) {
     }
     co = Array.from(temp);
 }
+
 console.log(parseInt(oxygen[0], 2) * parseInt(co[0], 2));
