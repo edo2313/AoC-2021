@@ -8,7 +8,7 @@ Everything is run locally using Nodejs so I can take advantage of the *fs* modul
 - [x] [Day 1](https://github.com/edo2313/AoC-2021/tree/main/day1)
 - [x] [Day 2](https://github.com/edo2313/AoC-2021/tree/main/day2)
 - [x] [Day 3](https://github.com/edo2313/AoC-2021/tree/main/day3)
-- [ ] [Day 4](https://github.com/edo2313/AoC-2021/tree/main/day4)
+- [x] [Day 4](https://github.com/edo2313/AoC-2021/tree/main/day4)
 - [x] [Day 5](https://github.com/edo2313/AoC-2021/tree/main/day5)
 - [x] [Day 6](https://github.com/edo2313/AoC-2021/tree/main/day6)
 - [x] [Day 7](https://github.com/edo2313/AoC-2021/tree/main/day7)
